@@ -1,6 +1,6 @@
 node {
     stage('Checkout') {
-        git branch: 'main', url: 'https://github.com/your-repo.git'
+        git branch: 'main', url: 'https://github.com/bhushantile20/ecom-proj.git'
     }
 
     stage('Build') {
